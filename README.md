@@ -12,7 +12,12 @@ If you use this dataset or any part of the code, please cite the paper below
 </p>
 
 ```
-
+@INPROCEEDINGS{10978364,
+  author={Noh, Yong Jun and Choi, Kae Won},
+  booktitle={Proc. IEEE Wireless Commun. Netw. Conf. (WCNC)}, 
+  title={Transformer-Based Site-Specific Channel Estimation}, 
+  year={2025},
+  pages={1-6},
 ```
 
 <br/>
