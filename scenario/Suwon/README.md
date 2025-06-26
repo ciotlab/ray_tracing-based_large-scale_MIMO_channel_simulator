@@ -5,8 +5,7 @@
 | Background        | Suwon station in South Korea  |
 | Area size         | 1.52 × 1.29 km                |
 | Number of BSs     | 40                            |
-
-<br></br>
+</br>
 
 <p align="center">
   <img width="700" alt="virtual_env" src="https://github.com/user-attachments/assets/ed84ab6c-2a35-4701-9439-40f2c7aea7a4" />
