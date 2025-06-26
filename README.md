@@ -1,9 +1,11 @@
 # Ray Tracing-Based Large-Scale MIMO Channel Simulator
 
+
+
 <img width="100%" alt="ray_simulator_architecture" src="https://github.com/user-attachments/assets/3bfbed87-7319-4ffc-a56d-966ba2a2ee5b" /><br/>
 
 <p align="justify">
-&emsp;Ray Tracing-Based Large-Scale MIMO Channel Simulator provides a deterministic and realistic channel modeling environment crucial for wireless communication studies. It constructs a comprehensive 3D virtual map from OpenStreetMap, integrating detailed representations of roads, buildings, and strategically deployed base stations (BSs) to ensure broad coverage. Mobility patterns of user equipment (UE), represented as vehicles, are realistically generated using the Simulation of Urban MObility (SUMO), which emulates traffic flow and vehicle behavior in urban environments. The integrated ray tracing module, Sionna RT, calculates accurate propagation paths between BSs and UEs, considering physical phenomena such as reflection, diffraction, and scattering. Configurable parameters in Sionna RT, including interaction types, antenna radiation patterns, and ray propagation depth, enable precise modeling of the MIMO-OFDM channel, providing detailed channel characteristics such as angles of arrival and departure, path coefficients, and delays.
+&emsp;Ray Tracing-Based Large-Scale MIMO Channel Simulator provides a deterministic and realistic channel modeling environment crucial for wireless communication studies. It constructs a comprehensive 3D virtual map from OpenStreetMap, integrating detailed representations of roads, buildings, and strategically deployed base stations (BSs) to ensure broad coverage. Mobility patterns of user equipment (UE), represented as vehicles, are realistically generated using the Simulation of Urban MObility (SUMO) [1], which emulates traffic flow and vehicle behavior in urban environments. The integrated ray tracing module, Sionna RT [2], calculates accurate propagation paths between BSs and UEs, considering physical phenomena such as reflection, diffraction, and scattering. Configurable parameters in Sionna RT, including interaction types, antenna radiation patterns, and ray propagation depth, enable precise modeling of the MIMO-OFDM channel, providing detailed channel characteristics such as angles of arrival and departure, path coefficients, and delays.
 </p><br/>
 
 ## Citation
@@ -12,12 +14,7 @@ If you use this dataset or any part of the code, please cite the paper below
 </p>
 
 ```
-@INPROCEEDINGS{10978364,
-  author={Noh, Yong Jun and Choi, Kae Won},
-  booktitle={Proc. IEEE Wireless Commun. Netw. Conf. (WCNC)}, 
-  title={Transformer-Based Site-Specific Channel Estimation}, 
-  year={2025},
-  pages={1-6},
+
 ```
 
 <br/>
@@ -28,10 +25,11 @@ If you use this dataset or any part of the code, please cite the paper below
 <br/>
 
 ## Installation
-We recommend that you run this simulator in a virtual environment using [Conda](https://www.anaconda.com/).<br/><br/>
+We recommend that you run this simulator in a virtual environment (python==3.10) using [Conda](https://www.anaconda.com/).<br/><br/>
 
 ### _1. Prerequisite_
 #### _1-1. Environmnet preparation for Sionna_
+
 **GPU support (NVIDIA GPUs Only)**
 
 If you would like to run the code on a GPU, be sure to complete the following steps
@@ -105,3 +103,18 @@ python ./simulator/ray_simulator.py
 
 ### _4. Animation for Ray Tracing Simulation_
 We provide an animation tool to visualize ray tracing simulations based on [pythreejs](https://github.com/jupyter-widgets/pythreejs/). You can view the animation for your ray tracing simulation in `animation_script.ipynb`.
+
+<br/>
+
+## References
+
+<p align="justify">
+[1] P. A. Lopez, M. Behrisch, L. Bieker-Walz, J. Erdmann, Y.-P. Fl¨otter¨od, R. Hilbrich, L. L¨ucken, J. Rummel, P. Wagner, and E. Wiessner, “Microscopic traffic simulation using SUMO,” in Proc. 21st Int. Conf. Intell. Transp. Syst. (ITSC), 2018, pp. 2575–2582.
+</p>
+
+<p align="justify">
+[2] J. Hoydis, F. A. Aoudia, S. Cammerer, M. Nimier-David, N. Binder, G. Marcus, and A. Keller, “Sionna RT: Differentiable ray tracing for radio propagation modeling,” 2023. [Online]. Available: arxiv:2303.11103
+</p>
+
+
+
