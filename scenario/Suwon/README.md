@@ -3,7 +3,7 @@
 | Parameter         | Value                         |
 | ----------------- | ----------------------------- |
 | Background        | Suwon station in South Korea  |
-| Area size         | 1.52 × 1.29 km                |
+| Area size         | 2.11 × 1.95 km                |
 | Number of BSs     | 40                            |
 </br>
 
