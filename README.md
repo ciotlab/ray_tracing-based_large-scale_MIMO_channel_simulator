@@ -104,6 +104,10 @@ python ./simulator/ray_simulator.py
 ### _4. Animation for Ray Tracing Simulation_
 We provide an animation tool to visualize ray tracing simulations based on [pythreejs](https://github.com/jupyter-widgets/pythreejs/). You can view the animation for your ray tracing simulation in `animation_script.ipynb`.
 
+
+<img src="https://github.com/user-attachments/assets/4de9d642-9100-4ce6-99d3-a887ffc8cac8" /><br/>
+
+
 <br/>
 
 ## References
