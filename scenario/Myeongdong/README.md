@@ -1,8 +1,8 @@
-# Suwon Station
+# Myeongdong
 
 | Parameter         | Value                         |
 | ----------------- | ----------------------------- |
-| Background        | Myeongdon in South Korea      |
+| Background        | Myeongdong in South Korea     |
 | Area size         | 3.09 × 2.73 km                |
 | Number of BSs     | 40                            |
 </br>
