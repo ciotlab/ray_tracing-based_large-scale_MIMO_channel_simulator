@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-06-25 14:12:15.997952 by randomTrips.py UNKNOWN
+<!-- generated on 2025-06-25 16:04:28.973697 by randomTrips.py UNKNOWN
 <configuration>
-    <net-file value="d:\github_opencode\Network-Wide_Site-Specific_Neural_Channel_Estimation_Technique\scenario\Suwon\sumo\osm.net.xml.gz"/>
-    <output-trip-file value="d:\github_opencode\Network-Wide_Site-Specific_Neural_Channel_Estimation_Technique\scenario\Suwon\sumo\osm.passenger.trips.xml"/>
-    <route-file value="d:\github_opencode\Network-Wide_Site-Specific_Neural_Channel_Estimation_Technique\scenario\Suwon\sumo\osm.passenger.rou.xml"/>
+    <net-file value="C:\Users\n0y0j\Documents\GitHub\Large-scale_MIMO_ray_tracing_simulator\scenario\Suwon\sumo\osm.net.xml.gz"/>
+    <output-trip-file value="C:\Users\n0y0j\Documents\GitHub\Large-scale_MIMO_ray_tracing_simulator\scenario\Suwon\sumo\osm.passenger.trips.xml"/>
+    <route-file value="C:\Users\n0y0j\Documents\GitHub\Large-scale_MIMO_ray_tracing_simulator\scenario\Suwon\sumo\osm.passenger.rou.xml"/>
     <prefix value="veh"/>
     <trip-attributes value="departLane=&quot;best&quot;"/>
     <fringe-start-attributes value="departSpeed=&quot;max&quot;"/>
@@ -23,16 +23,16 @@
 </configuration>
 -->
 
-<!-- generated on 2025-06-25 14:12:15 by Eclipse SUMO duarouter Version 1.19.0
+<!-- generated on 2025-06-25 16:04:28 by Eclipse SUMO duarouter Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value="d:\github_opencode\Network-Wide_Site-Specific_Neural_Channel_Estimation_Technique\scenario\Suwon\sumo\osm.net.xml.gz"/>
-        <route-files value="d:\github_opencode\Network-Wide_Site-Specific_Neural_Channel_Estimation_Technique\scenario\Suwon\sumo\osm.passenger.trips.xml"/>
+        <net-file value="C:\Users\n0y0j\Documents\GitHub\Large-scale_MIMO_ray_tracing_simulator\scenario\Suwon\sumo\osm.net.xml.gz"/>
+        <route-files value="C:\Users\n0y0j\Documents\GitHub\Large-scale_MIMO_ray_tracing_simulator\scenario\Suwon\sumo\osm.passenger.trips.xml"/>
     </input>
 
     <output>
-        <output-file value="d:\github_opencode\Network-Wide_Site-Specific_Neural_Channel_Estimation_Technique\scenario\Suwon\sumo\osm.passenger.rou.xml"/>
+        <output-file value="C:\Users\n0y0j\Documents\GitHub\Large-scale_MIMO_ray_tracing_simulator\scenario\Suwon\sumo\osm.passenger.rou.xml"/>
         <alternatives-output value="NUL"/>
     </output>
 

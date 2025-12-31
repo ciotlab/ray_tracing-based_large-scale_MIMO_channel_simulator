@@ -1,0 +1,113 @@
+<scene version="2.1.0">
+
+<!-- Defaults, these can be set via the command line: -Darg=value -->
+
+
+<!-- Camera and Rendering Parameters -->
+
+	<integrator type="path" id="elm__0" name="elm__0">
+		<integer name="max_depth" value="12"/>
+	</integrator>
+
+<!-- Materials -->
+
+	<bsdf type="diffuse" id="itu_marble">
+		<rgb value="1.000000 0.500000 0.200000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="itu_ceiling_board">
+		<rgb value="0.290000 0.250000 0.210000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="itu_concrete">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+
+<!-- Emitters -->
+
+
+<!-- Shapes -->
+
+	<shape type="ply" id="elm__14" name="elm__14">
+		<string name="filename" value="meshes/map_5_osm_buildings-wall.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_marble" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__15" name="elm__15">
+		<string name="filename" value="meshes/map_5_osm_buildings-roof.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_ceiling_board" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__16" name="elm__16">
+		<string name="filename" value="meshes/map_5_osm_buildings-66d18a.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_marble" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__17" name="elm__17">
+		<string name="filename" value="meshes/map_5_osm_buildings-db603d.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_marble" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__18" name="elm__18">
+		<string name="filename" value="meshes/map_5_osm_buildings-ffffff.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_marble" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__19" name="elm__19">
+		<string name="filename" value="meshes/map_5_osm_buildings-941234.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_marble" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__20" name="elm__20">
+		<string name="filename" value="meshes/map_5_osm_buildings-363636.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_marble" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__21" name="elm__21">
+		<string name="filename" value="meshes/map_5_osm_buildings-d7986f.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_marble" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__22" name="elm__22">
+		<string name="filename" value="meshes/map_5_osm_buildings-brown.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_marble" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__23" name="elm__23">
+		<string name="filename" value="meshes/map_5_osm_buildings-578c80.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_marble" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__24" name="elm__24">
+		<string name="filename" value="meshes/map_5_osm_buildings-8a8c70.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_marble" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__25" name="elm__25">
+		<string name="filename" value="meshes/map_5_osm_buildings-941e24.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_marble" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__26" name="elm__26">
+		<string name="filename" value="meshes/map_5_osm_buildings-c4b598.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="itu_marble" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__28" name="elm__28">
+		<string name="filename" value="meshes/map_5_osm_roads_residential.ply"/>
+		<ref id="itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__30" name="elm__30">
+		<string name="filename" value="meshes/map_5_osm_roads_primary.ply"/>
+		<ref id="itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__32" name="elm__32">
+		<string name="filename" value="meshes/map_5_osm_roads_tertiary.ply"/>
+		<ref id="itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__34" name="elm__34">
+		<string name="filename" value="meshes/map_5_osm_roads_secondary.ply"/>
+		<ref id="itu_concrete" name="bsdf"/>
+	</shape>
+
+<!-- Volumes -->
+
+</scene>
