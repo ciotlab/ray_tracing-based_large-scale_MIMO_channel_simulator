@@ -21,6 +21,7 @@ If you use this dataset or any part of the code, please cite the paper below
 
 ## Virtual Environment Overview
 * [Suwon](https://github.com/yongjun0711/Ray_tracing-based_large-scale_MIMO_channel_simulator/tree/main/scenario/Suwon)
+* [Myeongdong](https://github.com/yongjun0711/ray_tracing-based_large-scale_MIMO_channel_simulator/tree/main/scenario/Myeongdong)
 
 <br/>
 
